@@ -1,6 +1,9 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "publish:npm": "lerna publish --yes"
+  },
   "devDependencies": {
     "lerna": "^6.5.1"
   }
