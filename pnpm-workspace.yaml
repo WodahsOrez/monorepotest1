@@ -1,0 +1,7 @@
+packages:
+  # 所有 packages/ 下一级目录的包（只有一层）
+  - 'packages/*'
+  # 所有 components/ 下的包（包括深层目录）
+  - 'components/**'
+  # 排除指定的目录
+  - '!**/test/**'
