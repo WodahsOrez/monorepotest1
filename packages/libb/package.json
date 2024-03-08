@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "prepublish": "echo 'libb子目录prepublish'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

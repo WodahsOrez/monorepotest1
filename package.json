@@ -2,6 +2,7 @@
   "name": "root",
   "private": true,
   "scripts": {
+    "prepublish": "echo '根目录prepublish'",
     "publish:npm": "lerna publish --yes"
   },
   "devDependencies": {
